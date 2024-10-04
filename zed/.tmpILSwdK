@@ -1,0 +1,11 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"first open"}
+{"signed_in":false,"milliseconds_since_first_event":31,"type":"Setting","setting":"theme","value":"One Light"}
+{"signed_in":false,"milliseconds_since_first_event":31,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"welcome page: change theme"}
+{"signed_in":false,"milliseconds_since_first_event":3952,"type":"Setting","setting":"theme","value":"One Dark"}
+{"signed_in":true,"milliseconds_since_first_event":19982,"type":"Editor","operation":"open","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":25194,"type":"Editor","operation":"open","file_extension":"json","vim_mode":false,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":true,"milliseconds_since_first_event":27714,"type":"App","operation":"extensions page: open"}
+{"signed_in":true,"milliseconds_since_first_event":35802,"type":"App","operation":"welcome page: toggle vim"}
+{"signed_in":true,"milliseconds_since_first_event":36570,"type":"App","operation":"welcome page: toggle metric telemetry"}
+{"signed_in":true,"milliseconds_since_first_event":36570,"type":"Setting","setting":"metric telemetry","value":"false"}

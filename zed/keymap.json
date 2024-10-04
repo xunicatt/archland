@@ -1,0 +1,11 @@
+[
+  {
+    "context": "vim_mode == insert",
+    "bindings": {
+      "alt-h": "editor::MoveLeft",
+      "alt-l": "editor::MoveRight",
+      "alt-j": "editor::MoveDown",
+      "alt-k": "editor::MoveUp"
+    }
+  }
+]

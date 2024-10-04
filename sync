@@ -1,0 +1,46 @@
+config_folder=$HOME/.config
+dirs=(
+    alacritty
+    atuin
+    dunst
+    hypr
+    neofetch
+    pavucontrol.ini
+    waybar
+    vim
+    rofi
+    tmux
+    vim
+    zed
+)
+
+sync() {
+    for path in "${dirs[@]}"
+    do
+        cp $HOME/.bashrc ./
+        cp -rf $config_folder/$path ./
+    done
+}
+
+install() {
+    for path in "${dirs[@]}"
+    do
+        cp -rf ./$path $config_folder
+    done
+}
+
+case $1 in
+    "install")
+        echo "installing..."
+        install
+        echo "done"
+        ;;
+
+    "sync")
+        echo "syncing..."
+        sync
+        echo "done"
+        ;;
+    *)
+        echo "Unknown option: " $1
+esac
